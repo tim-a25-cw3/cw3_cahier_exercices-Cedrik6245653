@@ -10,6 +10,8 @@
             display: block;
         }
     }
+
+    padding-bottom: 60px;
 }
 
 .card {
@@ -50,5 +52,10 @@
         height: 100%;
         object-fit: cover;
         display: block;
+        border-radius: 20px;
     }
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--color-white);
 }
